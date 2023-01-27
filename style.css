@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    padding: 40px 0;
+}
+table{
+    border-collapse: collapse;
+}
+th,.sistemas,.finanzas,.rrhh,.seguridad {    
+    border-collapse: collapse;
+    border: solid black 1px;
+    text-align: center;
+}
+caption{
+    padding: 10px 0;
+    font-size: x-large;
+}
+td{
+    border-collapse: collapse;
+    border: solid black 1px;
+    border-style: dotted;
+}
+table th,.sistemas,.finanzas,.rrhh,.seguridad{
+    background-color: rgb(109, 168, 168);
+}
+.a:hover td{
+    background-color: rgb(123, 235, 123);
+    cursor: cell;
+    border-style: solid;
+}
