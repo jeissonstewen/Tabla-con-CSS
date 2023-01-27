@@ -12,6 +12,7 @@ div{
 }
 table{
     border-collapse: collapse;
+    text-align: center;
 }
 th,.sistemas,.finanzas,.rrhh,.seguridad {    
     border-collapse: collapse;
